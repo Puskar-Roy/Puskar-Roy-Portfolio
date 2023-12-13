@@ -1,12 +1,14 @@
+@media (max-width:500px) {
+.navbar {
+    display: none;
+}
+
+}
 @media (max-width:433px) {
     img.fonts {
     height: 17px;
 }
-.navbar {
-    font-size: 12px;
-    justify-content: space-between;
-    padding: 10px;
-}
+
 .navContainer {
     gap: 19px;
 }
