@@ -3,7 +3,7 @@
     display: none;
 }
 .blackText{
-    color: black;
+    color: white;
 }
 .flex.flex-row.items-center.justify-center.px-20.mt-40.w-full.z-\[20\] {
     margin-bottom: -176px;
@@ -23,6 +23,6 @@
     width: 126px;
 }
 .herocontainer {
-    margin: 0 -19px;
+    margin: 0 -29px;
 }
 }

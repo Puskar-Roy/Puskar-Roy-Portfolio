@@ -22,7 +22,7 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-black mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-white mr-[10px] h-5 w-5" />
           <h1 className=" blackText text-[13px]">
             Puskar Roy - Fullstack Developer
           </h1>
