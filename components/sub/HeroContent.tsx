@@ -9,7 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-
+import "../styles/responsive.css";
 const HeroContent = () => {
   return (
     <motion.div
@@ -17,7 +17,7 @@ const HeroContent = () => {
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="herocontainer h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -46,7 +46,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website and Software development. Check out my projects and skills.
+          I&apos;m a Full Stack Software Engineer with experience in Website and
+          Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

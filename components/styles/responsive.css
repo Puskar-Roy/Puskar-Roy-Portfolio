@@ -1,0 +1,20 @@
+@media (max-width:433px) {
+    img.fonts {
+    height: 17px;
+}
+.navbar {
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navContainer {
+    gap: 19px;
+}
+.logo {
+    height: 45px;
+    width: 126px;
+}
+.herocontainer {
+    margin: 0 -19px;
+}
+}
