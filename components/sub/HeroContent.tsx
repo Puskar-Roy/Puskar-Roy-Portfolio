@@ -17,13 +17,13 @@ const HeroContent = () => {
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      <div className="herocontainer h-full w-full flex flex-col gap-5 justify-center flex-wrap m-auto text-start">
+      <div className="herocontainer h-full w-full flex flex-col gap-5 justify-center flex-w m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-white mr-[10px] h-5 w-5" />
-          <h1 className=" blackText text-[13px]">
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <h1 className="Welcome-text text-[13px]">
             Puskar Roy - Fullstack Developer
           </h1>
         </motion.div>
