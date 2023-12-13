@@ -2,12 +2,18 @@
 .navbar {
     display: none;
 }
-.blackText{
+/* .blackText{
     color: white;
+} */
+.blackText {
+    color: #0b031d;
 }
-.flex.flex-row.items-center.justify-center.px-20.mt-40.w-full.z-\[20\] {
+.skillContainer {
+    margin-top: -84px;
+}
+/* .flex.flex-row.items-center.justify-center.px-20.mt-40.w-full.z-\[20\] {
     margin-bottom: -176px;
-}
+} */
 
 }
 @media (max-width:433px) {
