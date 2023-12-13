@@ -1,3 +1,8 @@
+.w-full.h-full.flex.justify-center.items-center {
+    margin-right: -81px;
+}
+
+
 @media (max-width:500px) {
 .navbar {
     display: none;
