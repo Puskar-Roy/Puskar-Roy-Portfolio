@@ -2,6 +2,12 @@
 .navbar {
     display: none;
 }
+.blackText{
+    color: black;
+}
+.flex.flex-row.items-center.justify-center.px-20.mt-40.w-full.z-\[20\] {
+    margin-bottom: -176px;
+}
 
 }
 @media (max-width:433px) {
