@@ -1,6 +1,6 @@
 .nav_container {
   border-radius: 16px;
-  /* box-shadow: 0 1px 15px rgba(144, 141, 141, 0.1); */
+  backdrop-filter: blur(8px);
 }
 nav {
   color: rgb(188, 205, 219);
@@ -23,10 +23,14 @@ nav {
   gap: 5px;
   cursor: pointer;
 }
-.menu_list , .toggle_list {
+.menu_list,
+.toggle_list {
   display: flex;
   gap: 2.5rem;
   font-weight: 400;
+  color: #190a32;
+
+  font-family: "Ubuntu", sans-serif;
 }
 .menu_button {
   display: none;
@@ -34,7 +38,12 @@ nav {
   text-align: center;
 }
 
-
+.list_items {
+  font-weight: 800;
+}
+.list_items:hover {
+  color: rgb(188, 205, 219);
+}
 
 @media (max-width: 985px) {
   .menu_list {
@@ -53,5 +62,19 @@ nav {
     justify-content: center;
     gap: 45px;
     align-items: center;
+  z-index: 2px;
+  backdrop-filter: blur(8px);
+  }
+  .list_items1{
+        color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    background-color: #8b5cf6;
+  }
+  .list_items {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    background-color: #8b5cf6;
   }
 }
